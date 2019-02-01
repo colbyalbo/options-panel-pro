@@ -1,2 +1,2 @@
 # Options Panel Pro
-Options Panel plugin for Repo Updates
+Options Panel plugin for WordPress
