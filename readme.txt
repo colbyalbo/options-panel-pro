@@ -1,7 +1,7 @@
 Options Panel
 Contributors: colbyalbo
 Donate link: http://example.com/
-Tags: comments, spam
+Tags: options
 Requires at least: 4.6
 Tested up to: 4.7
 Stable tag: 4.3
