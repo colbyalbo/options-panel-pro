@@ -28,6 +28,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+// beginning update checker
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/colbyalbo/options-panel-pro/',
+	__FILE__,
+	'options-pro'
+);
+
+//Optional: If you're using a private repository, specify the access token like this:
+// $myUpdateChecker->setAuthentication('your-token-here');
+
+//Optional: Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('master');
+//End update checker
+
 // Start Class
 if ( ! class_exists( 'WPEX_Theme_Options' ) ) {
   //enqueue color picker
