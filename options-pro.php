@@ -2,7 +2,7 @@
 /*
 Plugin Name: Options Pro
 Description: Options Panel
-Version: 1.0
+Version: 1.0.1
 Author: Colby Albarado
 Author URI: https://eyeboxmedia.com/
 
