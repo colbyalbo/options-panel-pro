@@ -2,7 +2,7 @@
 /*
 Plugin Name: Options Pro
 Description: Options Panel
-Version: 1.0.1
+Version: 1.0.2
 Author: Colby Albarado
 Author URI: https://eyeboxmedia.com/
 
@@ -40,7 +40,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 // $myUpdateChecker->setAuthentication('your-token-here');
 
 //Optional: Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('master');
+// $myUpdateChecker->setBranch('master');
 //End update checker
 
 // Start Class
