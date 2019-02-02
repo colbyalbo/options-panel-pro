@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Options Pro
+Plugin Name: Options Panel Pro
 Description: Options Panel
-Version: 1.0.4
+Version: 1.0.5
 Author: Colby Albarado
 Author URI: https://eyeboxmedia.com/
 
@@ -33,7 +33,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/colbyalbo/options-panel-pro/',
 	__FILE__,
-	'options-pro'
+	'options-panel-pro'
 );
 
 //Optional: If you're using a private repository, specify the access token like this:
