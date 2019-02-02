@@ -2,7 +2,7 @@
 /*
 Plugin Name: Options Panel Pro
 Description: Options Panel
-Version: 1.0.5
+Version: 1.0.6
 Author: Colby Albarado
 Author URI: https://eyeboxmedia.com/
 
@@ -35,7 +35,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__,
 	'options-panel-pro'
 );
-
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
 //Optional: If you're using a private repository, specify the access token like this:
 // $myUpdateChecker->setAuthentication('your-token-here');
 
